@@ -14,12 +14,12 @@ const UrlForm = ({ onSubmit }) => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Enter long URL"
+        placeholder="Enter Full URL"
         value={longUrl}
         onChange={(e) => setLongUrl(e.target.value)}
         required
       />
-      <button type="submit">Shorten</button>
+      <button type="submit">Slim Down</button>
     </form>
   );
 };
